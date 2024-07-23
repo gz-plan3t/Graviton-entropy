@@ -1,24 +1,24 @@
 Welcome to Hawking Filter Calculator!
 ********************************************************************************
 TUTORIAL:
-Execute directly the code or use the executable file. When the program starts running it will have only two following prompts:
-
-"Enter the folder path where the input CSV file is located:"
-"Enter the interpolation radius:"
-
-The folder path is a string input like "C:\My_Folder\Documents\"
-The interpolation radius corresponds to the unit of cell of interpolation which is measured in meters and generally considered to be 1/4 of the acquisition geophysical spacement.
-Your input file must be renamed to 'grav_data.csv'.
-The 'grav_data.csv' file must contain the headers: 'x', 'y', and 'bouguer', not in these literal names, but representing:
-x = The first column containing the Easting coordinates;
-y = The second column containing the Northing coordinates;
-bouguer = The third column containing the bouguer anomaly values in 'milligals'.
-OBS.: All the output files will be saved in the initially chosen folder path
+Execute directly the code or use the executable file. When the program starts running it will:
+Open a file dialog asking a 'csv' file containing the bouguer anomaly values.
+Next it will open another window for the user to chose the folder to save the output files
+********************************************************************************
+SOME INFORMATION ABOUT COMPUTATIONS
+The radius of interpolation will be computed from the average resultant Schwarzschild radius of each gravity point.
+At the end of the program it will be printed the average calculated Schwarzschild radius.
+Your file containing the bouguer data must contain the headers: 'x', 'y', and 'bouguer', not in these literal names, but representing:
+- x = The first column containing the Easting coordinates;
+- y = The second column containing the Northing coordinates;
+- bouguer = The third column containing the bouguer anomaly values in 'milligals'.
+OBS.: Your input file format must be 'csv'
+      All the output files will be saved in the initially chosen folder path
       The used method of interpolation for the plots is 'cubic'
 ********************************************************************************
 FILE STRUCTURES:
-All the 'csv' files must have as delimiter = ','
-The decimal separator of the values is '.'
+All the 'csv' files must have as delimiter a comma = ','
+The decimal separator of the values is the point '.'
 The output 'csv' file is 'Entropy_data.csv'
 File 'Entropy_data.csv' contains in its header the corresponding columns:
 'x', 'y', 'boug', 'Entropy', 'Googolbyte'
