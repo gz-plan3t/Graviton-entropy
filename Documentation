@@ -5,6 +5,11 @@ Execute directly the code or use the executable file. When the program starts ru
 Open a file dialog asking a 'csv' file containing the bouguer anomaly values.
 Next it will open another window for the user to chose the folder to save the output files
 ********************************************************************************
+HOW TO USE THE EXECUTABLE FILE:
+Download all the '.7zip' files on the repository
+Extract the file 'Hawking_filter.7zip.001' to restore the complete '.exe' file
+Just click the executable and will start running right away.
+********************************************************************************
 SOME INFORMATION ABOUT COMPUTATIONS
 The radius of interpolation will be computed from the average resultant Schwarzschild radius of each gravity point.
 At the end of the program it will be printed the average calculated Schwarzschild radius.
