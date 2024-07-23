@@ -26,8 +26,8 @@ All the 'csv' files must have as delimiter a comma = ','
 The decimal separator of the values is the point '.'
 The output 'csv' file is 'Entropy_data.csv'
 File 'Entropy_data.csv' contains in its header the corresponding columns:
-'x', 'y', 'boug', 'Entropy', 'Googolbyte'
+'x', 'y', 'boug', 'Entropy', 'GGgB'
 'Entropy' is in Base 10 Log representation - unit: Planck Area
-'Googolbyte' is expressed in googolbytes - unit: 1.6 x 10^100 bits
+'GGgB' is expressed in "Giga-Googolbytes" - unit: 1.6 x 10^109 bits
 ********************************************************************************
 GOOD MATHEMATICAL ENDEAVOURS!!
