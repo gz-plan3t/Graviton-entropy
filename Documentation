@@ -1,4 +1,23 @@
 Welcome to Hawking Filter Calculator!
+
+#     #  # # # #  #     #  #     #   # # # #   #     #  # # # #
+#     #  #     #  #     #  #   #        #      # #   #  #      
+# # # #  # # # #  #  #  #  # #          #      #  #  #  #   # #
+#     #  #     #  # # # #  #   #        #      #   # #  #     #
+#     #  #     #  #     #  #     #   # # # #   #     #  # # # #
+
+
+# # # #  # # # #  #       # # # #  # # # #  # # # #
+#           #     #          #     #        #     #
+# # #       #     #          #     # # #    # # #
+#           #     #          #     #        #    #
+#        # # # #  # # # #    #     # # # #  #      #
+
+The original python file SHA-256 hash of this project is stored in the Blockchain:
+Network: Fantom Opera (FTM)
+URL of Hex Message on the FTM Blockchain: https://ftmscan.com/tx/0x9f511c8e7b2f76b15d6796de31942ee9f0efb5005e664ff78e07cc7da35cd050
+Address: 0x5d9Bc1eA0CAda36D39ce4Ae1fcd01273d5e99fC8
+
 ********************************************************************************
 TUTORIAL:
 Execute directly the code or use the executable file. When the program starts running it will:
