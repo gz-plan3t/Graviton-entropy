@@ -1,4 +1,4 @@
-Welcome to Hawking Filter Calculator!
+WELCOME TO HAWKING ENTROPY CALCULATOR!!
 
 #     #  # # # #  #     #  #     #   # # # #   #     #  # # # #
 #     #  #     #  #     #  #   #        #      # #   #  #      
@@ -7,18 +7,13 @@ Welcome to Hawking Filter Calculator!
 #     #  #     #  #     #  #     #   # # # #   #     #  # # # #
 
 
-# # # #  # # # #  #       # # # #  # # # #  # # # #
-#           #     #          #     #        #     #
-# # #       #     #          #     # # #    # # #
-#           #     #          #     #        #    #
-#        # # # #  # # # #    #     # # # #  #      #
+# # # #  #     #  # # # #  # # # #   # # # #  # # # #  #     #
+#        # #   #     #     #     #   #     #  #     #   #   #
+# # #    #  #  #     #     # # #     #     #  # # # #    # #
+#        #   # #     #     #    #    #     #  #           # 
+# # # #  #     #     #     #      #  # # # #  #           #
 
-The original python file SHA-256 hash of this project is stored in the Blockchain:
-Network: Fantom Opera (FTM)
-URL of Hex Message on the FTM Blockchain: https://ftmscan.com/tx/0x9f511c8e7b2f76b15d6796de31942ee9f0efb5005e664ff78e07cc7da35cd050
-Address: 0x5d9Bc1eA0CAda36D39ce4Ae1fcd01273d5e99fC8
-
-********************************************************************************
+*******************************************************************************
 TUTORIAL:
 Execute directly the code or use the executable file. When the program starts running it will:
 Open a file dialog asking a 'csv' file containing the bouguer anomaly values.
@@ -43,10 +38,14 @@ OBS.: Your input file format must be 'csv'
 FILE STRUCTURES:
 All the 'csv' files must have as delimiter a comma = ','
 The decimal separator of the values is the point '.'
+********************************************************************************
+OUTPUT FILES:
 The output 'csv' file is 'Entropy_data.csv'
 File 'Entropy_data.csv' contains in its header the corresponding columns:
-'x', 'y', 'boug', 'Entropy', 'GGgB'
+'x', 'y', 'boug', 'Entropy', 'GgB'
 'Entropy' is in Base 10 Log representation - unit: Planck Area
-'GGgB' is expressed in "Giga-Googolbytes" - unit: 1.6 x 10^109 bits
+'GgB' is expressed in "Googolbytes" - unit: 1.6 x 10^100 bits
+Plot of Hawking Entropy Map is file 'Entropy_map.png'
+Text file containing the total number of bits of gravitational entropy is 'Bit_number.txt'
 ********************************************************************************
 GOOD MATHEMATICAL ENDEAVOURS!!
