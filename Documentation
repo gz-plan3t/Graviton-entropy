@@ -50,7 +50,7 @@ Plot of Hawking Entropy Map is file 'Entropy_map.png'
 Text file containing the total number of bits of gravitational entropy is 'Bit_number.txt'
 ********************************************************************************
 Original python code 'Graviton_entropy.py' SHA-256 hash:
-
+317bc069837b9e3fb87736a7c2199cd6f7b676b450ba4cd6dd551a6ba9ac4ab2
 How was generated: Original code text added to a secret key.
 OBS.: Only the isolated code will not generate the same hash.
       Adding the correct key restores this hash hexdigest.
