@@ -26,8 +26,8 @@ Extract the file 'Hawking_filter.7zip.001' to restore the complete '.exe' file
 Just click the executable and will start running right away.
 ********************************************************************************
 SOME INFORMATION ABOUT COMPUTATIONS
-The radius of interpolation will be computed from the average resultant Schwarzschild radius of each gravity point.
-At the end of the program it will be printed the average calculated Schwarzschild radius.
+The radius of interpolation will be asked by the user on the program screen.
+It prints the average calculated Schwarzschild radius.
 Your file containing the bouguer data must contain the headers: 'x', 'y', and 'bouguer', not in these literal names, but representing:
 - x = The first column containing the Easting coordinates;
 - y = The second column containing the Northing coordinates;
